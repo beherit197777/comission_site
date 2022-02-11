@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    link href="site/images/favicon.png" rel="icon" />
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    !-- Web Fonts -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+
+    <!-- Stylesheet
+    ============================== -->
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/animate/animate.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/font-awesome/css/all.min.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/owl.carousel/assets/owl.carousel.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Youtube Video Background -->
+    <link rel="stylesheet" type="text/css" href="site/vendor/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="site/css/stylesheet.css" />
+  </head>
+
+  <body id="data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <%= render 'layouts/navbar' %>
+  <%= yield %>
+  </body>
+
+<footer>
+  <!-- JavaScript -->
+  <script src="site/vendor/jquery/jquery.min.js"></script>
+  <script src="site/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Easing -->
+  <script src="site/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Appear -->
+  <script src="site/vendor/jquery.appear/jquery.appear.min.js"></script>
+  <!-- WOW animation -->
+  <script src="site/vendor/wow/wow.min.js"></script>
+  <!-- Images Loaded -->
+  <script src="site/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <!-- Typed -->
+  <script src="site/vendor/typed/typed.min.js"></script>
+  <!-- Youtube Video Background -->
+  <script src="site/vendor/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js"></script>
+  <!-- Parallax Bg -->
+  <script src="site/vendor/parallaxie/parallaxie.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="site/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <!-- isotope Portfolio Filter -->
+  <script src="site/vendor/isotope/isotope.pkgd.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="site/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="site/js/theme.js"></script>
+</footer>
+</html>
